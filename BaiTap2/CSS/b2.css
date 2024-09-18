@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+.wrapper {
+    width: 960px;
+}
+
+header {
+    background-color: #294e7a;
+    position: relative;
+}
+
+header h1 {
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    color: white;
+}
+
+header h5 {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    color: white;
+}
+
+header #frm1 {
+    top: 0px;
+    right: 20px;
+    position: absolute;
+}
+
+nav {
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+
+.menu li {
+    background-color: #537cad;
+    display: inline-table;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu li a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu li:hover {
+    background-color: thistle;
+}
+
+.menu li:hover>a {
+    font-style: italic;
+    color: lightcoral;
+}
+
+.content {
+    width: 960px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+footer {
+    background-color: #294e7a;
+    position: relative;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+
+footer p {
+    color: #ddd;
+    margin: 0 20px;
+}
+
+section {
+    width: 65%;
+    height: 100%;
+    padding: 10px;
+}
+
+.section-title h1,
+.section-subtitle h2 {
+    margin-top:0;
+}
+
+.section-title,
+.section-subtitle {
+    border-bottom: 2px dotted #333;
+    margin-bottom: 20px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background-color: white;
+}
+
+aside {
+    width: 35%;
+    height: fit-content;
+    margin: 30px 0 0 15px;
+    padding: 20px;
+    background-color: rgba(240, 230, 230, 0.406);
+}
+
+section .form-container,
+section .info-container {
+    width: 50%;
+    height: 100%;
+    padding: 0 15px;
+}
+
+
+.form-container form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+.form-container .description p{
+    text-shadow: 2px 4px 6px #5d684f;
+    color:#ff0000;
+    margin-top:0;
+}
+
+.form-container form .input-data {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-container form .form-row {
+    display: flex;
+    width: 48%;
+    row-gap: 10px;
+    flex-direction: column;
+}
+
+.form-container form input {
+    border: 1px solid #a1a1a1;
+    outline: none;
+    height: 24px;
+}
+
+.form-container form .form-textarea {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.form-container form textarea {
+    outline: none;
+}
+
+.form-container form .submit-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container form .submit-btn .input-data {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.form-container form .submit-btn .input-data input[type="submit"] {
+    padding: 5px 15px;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.qhuong h1 {
+    margin-top: 0;
+    margin-bottom:10px;
+}
+
+.qhuong {
+    border-bottom: 2px dotted #333;
+}
+
+.ducky {
+    margin-top: 20px;
+}
+
+.ducky img {
+    width: 100%;
+}
+
+.btn {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+}
